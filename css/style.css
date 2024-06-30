@@ -2780,6 +2780,7 @@ figure figcaption {
 .activepop > .popup-layer {
   opacity: 1;
   backdrop-filter: blur(3px);
+  pointer-events: auto;
 }
 .activepop > .popup-bg {
   opacity: 1;
@@ -2795,7 +2796,7 @@ figure figcaption {
   background-color: #100e0e12;
   z-index: 1;
   backdrop-filter: blur(0);
-  pointer-events: auto;
+  pointer-events: none;
   opacity: 0;
 }
 .popup-bg {
@@ -2839,4 +2840,16 @@ figure figcaption {
   font-size: 0.8rem;
   text-align: justify;
   margin-top: 0.7rem;
+}
+.download {
+  /* width: 2.5rem;
+  height: 2.5rem; */
+  cursor: pointer;
+  background-color: white;
+  z-index: 100;
+}
+svg {
+  width: 130px;
+  height: 100%;
+  object-fit: cover;
 }
