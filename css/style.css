@@ -659,7 +659,6 @@ body:after {
   font-size: 12px;
   z-index: 20;
   font-family: "icomoon";
-  content: "\f078";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2355,7 +2354,7 @@ body:after {
 .custom-direction a {
   padding: 10px 20px;
   display: inline-block;
-  color: #fff;
+  color: #fff !important;
   font-size: 1.5rem;
 }
 .custom-direction a.custom-next > span > span {
