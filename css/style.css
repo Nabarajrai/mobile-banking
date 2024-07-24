@@ -24,7 +24,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: rgb(209, 26, 26) !important;
+  color: #029002;
 }
 a:hover {
   text-decoration: none;
@@ -140,6 +140,7 @@ body:after {
 
 .site-section {
   padding: 2.5em 0;
+  background: #def0de;
 }
 @media (min-width: 768px) {
   .site-section {
@@ -161,10 +162,17 @@ body:after {
     font-size: 3rem;
   }
 }
-
+img {
+  border-radius: 10px;
+}
+.note {
+  color: red;
+  font-size: 0.8rem;
+  text-align: center;
+}
 .site-footer {
   padding: 4em 0;
-  background: #343a40;
+  background: #055f07;
 }
 @media (min-width: 768px) {
   .site-footer {
@@ -751,7 +759,7 @@ body:after {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #ffffff;
+  background: #def0de;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
@@ -763,7 +771,7 @@ body:after {
   color: #fd7e14;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000 !important;
+  color: rgb(8, 97, 8) !important;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
@@ -1534,7 +1542,7 @@ body:after {
 
 .unit-4 h3 {
   font-size: 20px;
-  color: #000;
+  color: #029002;
 }
 
 .h-entry img {
@@ -1545,15 +1553,20 @@ body:after {
   color: #b3b3b3;
   font-size: 14px;
 }
-
+.comming-soon {
+  color: #029002;
+}
+ul li {
+  color: #029002;
+}
 .h-entry h2 {
   font-size: 20px;
 }
 .h-entry h2 a {
-  color: #000;
+  color: #c31010;
 }
 .h-entry h2 a:hover {
-  color: #fd7e14;
+  color: #c43434;
 }
 
 .overlap-left {
@@ -2711,9 +2724,19 @@ figure figcaption {
 
 .card-title {
   font-size: 1.4rem;
-  color: #000;
+  color: #029002;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #029002;
+}
+p {
+  color: #087508;
+}
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
@@ -2804,7 +2827,7 @@ figure figcaption {
   position: relative;
   max-width: 50rem;
   width: 100%;
-  background-color: white;
+  background: #def0de;
   margin: 3rem 0;
   border-radius: 10px;
   padding: 2rem;
@@ -2812,6 +2835,7 @@ figure figcaption {
   transform: translate(1.1);
   opacity: 0;
   transition: all 300ms cubic-bezier(0.3, 0.3, 0.18, 1.88);
+  color: green;
 }
 .popup-close {
   background-color: red;
@@ -2843,11 +2867,15 @@ figure figcaption {
   margin-top: 0.7rem;
 }
 .download {
-  /* width: 2.5rem;
-  height: 2.5rem; */
+  width: 150px;
   cursor: pointer;
   background-color: white;
   z-index: 100;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 svg {
   width: 130px;
