@@ -2417,6 +2417,9 @@ ul li {
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
+span {
+  display: block;
+}
 .item .item-wrap:hover:after {
   opacity: 1;
   visibility: visible;
